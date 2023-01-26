@@ -1,0 +1,78 @@
+*
+{
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(113, 128, 185);
+}
+
+header
+{
+    height: 15vh;
+}
+
+header .logo
+{
+    color: rgb(223, 243, 228);
+    margin: 10px;
+}
+
+header .logo h1
+{
+    margin: 0;
+}
+
+header #spawn-button
+{
+    border: 1px solid rgb(223, 243, 228);
+    background-color: rgb(113, 128, 185);
+    color: rgb(223, 243, 228);
+    padding: 13px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+header #spawn-button:active
+{
+    background-color: rgb(223, 243, 228);
+    color: rgb(23, 23, 56);
+}
+
+header .main-section
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    border-bottom: 1px solid rgb(226, 226, 226);
+}
+
+header .sub-section
+{
+    height: 5vh;
+    color: rgb(23, 23, 56);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.colors-container
+{
+    width: 100vw;
+    height: 85vh;
+    display: flex;
+}
+
+.colors-container div
+{
+    width: 25%;
+    height: 100%;
+    background-color: cornflowerblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
