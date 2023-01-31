@@ -65,14 +65,28 @@ header .sub-section
     width: 100vw;
     height: 85vh;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .colors-container div
 {
-    width: 25%;
-    height: 100%;
+    width: 20%;
+    height: 90%;
     background-color: cornflowerblue;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 20px 0; 
 }
+
+.colors-container div:nth-child(4)
+{
+    border-radius: 0 12px 12px 0;
+}
+
+.colors-container div:nth-child(1)
+{
+    border-radius: 12px 0 0 12px;
+}
+
