@@ -90,3 +90,38 @@ header .sub-section
     border-radius: 12px 0 0 12px;
 }
 
+@media screen and (max-width: 768px)
+{
+    .colors-container div
+    {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 480px)
+{
+    header .sub-section
+    {
+        height: 5vh;
+        margin: 10px;
+    }
+    .colors-container
+    {
+        flex-direction: column;
+    }
+    .colors-container div
+    {
+        margin: 0;
+        width: 80%;
+        height: 22%;
+    }
+    .colors-container div:nth-child(1)
+    {
+        border-radius: 12px 12px 0 0;
+    }
+    .colors-container div:nth-child(4)
+    {
+        border-radius: 0 0 12px 12px;
+    }
+}
+
