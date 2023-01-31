@@ -44,17 +44,4 @@ spawn()
 spawnButton.addEventListener('click', spawn)
 document.addEventListener('keydown', spawn)
 
-// to copy to clipboard
-
-function copyToClipboard()
-{
-    var copyText = document.getElementById('background-color')
-    copyText.select()
-    copyText.setSelectionRange(0, 99999)
-    navigator.clipboard.writeText(copyText.value)
-    alert('Copied the text: ' + copyText.value)
-}
-
-copyToClipboard()
-document.addEventListener('click', copyToClipboard)
 
