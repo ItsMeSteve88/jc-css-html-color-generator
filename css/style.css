@@ -105,6 +105,10 @@ header .sub-section
         height: 5vh;
         margin: 10px;
     }
+    header .sub-section p
+    {
+        font-size: 14px;
+    }
     .colors-container
     {
         flex-direction: column;
